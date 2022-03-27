@@ -1,0 +1,90 @@
+
+.footer {
+    padding: 5%;
+    background: #fafafa;
+  
+    .footer-top {
+      padding-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      .email {
+        background-color: #fff;
+        input {
+          border: none;
+        }
+  
+        .btn-dark {
+          font-size: 13px;
+          width: 80px;
+          height: 30px;
+        }
+      }
+    }
+  
+    .footer-bottom {
+      padding-top: 2rem;
+      padding-left: 5rem;
+      display: flex;
+      justify-content: space-between;
+  
+      span {
+        color: grey;
+      }
+  
+      p {
+        font-weight: bold;
+      }
+  
+      .footer-logo {
+        display: grid;
+        gap: 1rem;
+      }
+  
+      .contacts {
+        display: grid;
+        gap: 1rem;
+  
+        .icons {
+          display: flex;
+          justify-content: space-between;
+          width: 100px;
+        }
+      }
+    }
+  }
+
+
+  @media (max-width: 900px) {
+    .footer {
+      .footer-top {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  }
+
+  @media (max-width: 675px) {
+    .footer {
+      width: 485px;
+      .footer-top {
+        width: 430px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 1rem;
+      }
+      .chiziq {
+        width: 80%;
+      }
+      .footer-bottom {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 1rem;
+      }
+    }
+  }

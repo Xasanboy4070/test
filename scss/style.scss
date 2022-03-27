@@ -1,0 +1,18 @@
+@import "mixins";
+@import "header";
+@import "popular_product";
+@import "perfect_beauty";
+@import "amazing_cosmetic";
+@import "footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Display";
+}
+
+a {
+  text-decoration: none;
+}
+
+
